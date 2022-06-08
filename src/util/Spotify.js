@@ -30,7 +30,7 @@ const Spotify = {
             return accessToken;
         } else {
             console.log("Redirecting to authentication");
-            alert("Getting permission from Spotify account first. Please perform the search again right after!");
+            alert("Getting permission from Spotify account first. Perform the search again right after!");
             const accessUrl = `https://accounts.spotify.com/authorize?client_id=${clientId}&response_type=token&scope=playlist-modify-public&redirect_uri=${redirectUri}`;
             window.location = accessUrl;
             // alert("received access token back via URL woohoo!");
