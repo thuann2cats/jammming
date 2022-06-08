@@ -30,7 +30,7 @@ export class App extends React.Component {
         //   id: 3
         // }
       ],
-      playlistName: "Enter playlist name...",
+      playlistName: "Playlist name here...",
       playlistTracks: [
         // {
         //   name: 'Wish I Could',
