@@ -1,4 +1,4 @@
-import logo from '../../logo.svg';
+// import logo from '../../logo.svg';
 import './App.css';
 import {SearchBar} from '../SearchBar/SearchBar';
 import {SearchResults} from '../SearchResults/SearchResults';
@@ -55,7 +55,7 @@ export class App extends React.Component {
   addTrack(track) {
     // console.log(track);
     // console.log("entering addTrack");
-    let foundTrack = this.state.playlistTracks.find(playlistTrack => track.id==playlistTrack.id);
+    let foundTrack = this.state.playlistTracks.find(playlistTrack => track.id===playlistTrack.id);
     // console.log(foundTrack);
     if (!foundTrack) {
       // console.log("going to append");
@@ -79,7 +79,7 @@ export class App extends React.Component {
   }
 
   removeTrack(track) {
-    this.setState({playlistTracks: this.state.playlistTracks.filter(playlistTrack => playlistTrack.id != track.id) });
+    this.setState({playlistTracks: this.state.playlistTracks.filter(playlistTrack => playlistTrack.id !== track.id) });
   }
 
   updatePlaylistName(name) {
