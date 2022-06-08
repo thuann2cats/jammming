@@ -1,0 +1,14 @@
+http://jammming.s3-website-us-east-1.amazonaws.com/#access_token=BQBd-QRWHPqFb4g92dfpsY8VCTwmBCvekxZatz3JJNRqCPHzla-B6J3yghka08WT8LUAFri8hDlXq0DUGyGVx2POM8ApohdSs13ISgpHbL-HW0RKa-NzDPvetKetaik0LFn4NjQ-0iaYgjHobSzhaV4TfgRJdXNKdaxzH1UX8iunQBM&token_type=Bearer&expires_in=3600
+
+
+
+await (await fetch('https://api.spotify.com/v1/search?type=track&q=Lady%20Gaga', {headers: { Authorization: 'Bearer BQD7u1auA1fayOBLKdnbRewch_Mlelb8EyyGqi4__poWHRL2qRYOWu-uAELbzCNxpyR4DODFp-5B25BpDYXViy_-SeBi9eEZGZMUx0MtqO84vJXYQcWHXH9fBUo007XOV998LqG6-TSOGzNZcVRXhN9dbBKJ4RQjDQ3Y1mHyh64SXoY' } })).json()
+
+
+await (await fetch('https://api.spotify.com/v1/search?type=track&q=Billy%20Joel', {headers: { Authorization: 'Bearer BQD7u1auA1fayOBLKdnbRewch_Mlelb8EyyGqi4__poWHRL2qRYOWu-uAELbzCNxpyR4DODFp-5B25BpDYXViy_-SeBi9eEZGZMUx0MtqO84vJXYQcWHXH9fBUo007XOV998LqG6-TSOGzNZcVRXhN9dbBKJ4RQjDQ3Y1mHyh64SXoY' } })).json() 
+
+
+await (await fetch('https://api.spotify.com/v1/search?type=track&q=Billy%20Joel', {headers: { Authorization: 'Bearer BQD7u1auA1fayOBLKdnbRewch_Mlelb8EyyGqi4__poWHRL2qRYOWu-uAELbzCNxpyR4DODFp-5B25BpDYXViy_-SeBi9eEZGZMUx0MtqO84vJXYQcWHXH9fBUo007XOV998LqG6-TSOGzNZcVRXhN9dbBKJ4RQjDQ3Y1mHyh64SXoY' } })).json() 
+
+
+BQDXXRiFIiaH0kAdAtHzyIWMrKbwlagHi0jCV39KQEArt86NZ6BE7ZgfT3kuIBy-UsiKTtADcjkwt6x-hN5Kn_sT3ahLmvMJYpOWJspFA4ZBObxUTCOBtEGlDQCYuR8o2pt8gXLM7E4ptYoFXMdhg8xRgUXqOr8TSQi93rOqRWl54wQ
